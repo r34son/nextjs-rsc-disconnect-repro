@@ -1,0 +1,15 @@
+{
+  "name": "next-cancellation-repro",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "next build --webpack",
+    "start": "next start",
+    "repro": "node repro.cjs"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.36",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}
